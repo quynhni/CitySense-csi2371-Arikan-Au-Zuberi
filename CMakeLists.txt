@@ -43,6 +43,7 @@ add_executable(citysense_tests
   tests/test_build.cpp
   tests/test_aggregation.cpp
   tests/test_api_shapes.cpp
+  tests/test_detectors.cpp
 )
 target_link_libraries(citysense_tests PRIVATE citysense_lib Catch2::Catch2WithMain)
 apply_warnings(citysense_tests)
